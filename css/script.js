@@ -1,52 +1,53 @@
 let products = {
   data: [
     {
-      productName: "Regular White T-Shirt",
-      category: "Topwear",
-      price: "30",
-      image: "white-tshirt.jpg",
+      productName: "MOMENTUM платье",
+      category: "Платья",
+      price: "495",
+      image: "../imgProduct/1.webp",
+      href:
     },
     {
-      productName: "Beige Short Skirt",
-      category: "Bottomwear",
-      price: "49",
-      image: "short-skirt.jpg",
+      productName: "FLOWERS блуза",
+      category: "Блузыирубашки",
+      price: "295",
+      image: "../imgProduct/2.webp",
     },
     {
-      productName: "Sporty SmartWatch",
-      category: "Watch",
+      productName: "FLOWERS пальто",
+      category: "Верхняяодежда",
       price: "99",
-      image: "sporty-smartwatch.jpg",
+      image: "../imgProduct/3.webp",
     },
     {
-      productName: "Basic Knitted Top",
-      category: "Topwear",
+      productName: "ECLIPSE платье",
+      category: "Платья",
       price: "29",
-      image: "knitted-top.jpg",
+      image: "../imgProduct/4.webp",
     },
     {
-      productName: "Black Leather Jacket",
-      category: "Jacket",
+      productName: "ECLIPSE пиджак",
+      category: "Пиджакиикостюмы",
       price: "129",
-      image: "black-leather-jacket.jpg",
+      image: "../imgProduct/5.webp",
     },
     {
-      productName: "Stylish Pink Trousers",
-      category: "Bottomwear",
+      productName: "MOMENTUM костюм",
+      category: "Пиджакиикостюмы",
       price: "89",
-      image: "pink-trousers.jpg",
+      image: "../imgProduct/6.webp",
     },
     {
-      productName: "Brown Men's Jacket",
-      category: "Jacket",
+      productName: "MONDEY куртка оверсайз",
+      category: "Верхняяодежда",
       price: "189",
-      image: "brown-jacket.jpg",
+      image: "../imgProduct/7.webp",
     },
     {
-      productName: "Comfy Gray Pants",
-      category: "Bottomwear",
+      productName: "DOLL платье с перчатками",
+      category: "Платья",
       price: "49",
-      image: "comfy-gray-pants.jpg",
+      image: "../imgProduct/8.webp",
     },
   ],
 };
@@ -99,7 +100,7 @@ function filterProduct(value) {
   //loop through all cards
   elements.forEach((element) => {
     //display all cards on 'all' button click
-    if (value == "all") {
+    if (value == "Все") {
       element.classList.remove("hide");
     } else {
       //Check if element contains category class
@@ -136,5 +137,5 @@ document.getElementById("search").addEventListener("click", () => {
 
 //Initially display all products
 window.onload = () => {
-  filterProduct("all");
+  filterProduct("Все");
 };
