@@ -5,25 +5,28 @@ let products = {
       category: "Платья",
       price: "495",
       image: "../imgProduct/1.webp",
-      href:
+      model: "505795.html",
     },
     {
       productName: "FLOWERS блуза",
       category: "Блузыирубашки",
       price: "295",
       image: "../imgProduct/2.webp",
+      model: "605796.html",
     },
     {
       productName: "FLOWERS пальто",
       category: "Верхняяодежда",
       price: "99",
       image: "../imgProduct/3.webp",
+      model: "705796.html",
     },
     {
       productName: "ECLIPSE платье",
       category: "Платья",
       price: "29",
       image: "../imgProduct/4.webp",
+      model: "505796",
     },
     {
       productName: "ECLIPSE пиджак",
@@ -80,6 +83,20 @@ for (let i of products.data) {
 
   card.appendChild(container);
   document.getElementById("products").appendChild(card);
+  // function goToPage()
+  // {
+  //   var url = document.getElementById('id_Элемента');
+  //   document.location.href = url.value;
+  // }
+  // if (i.model) {
+  //   window.location.href = 'https://darinastepanova.github.io/irpo/'+i.model;
+  // }
+  var a = document.createElement('a');
+      var linkText = document.createTextNode("Купить");
+      a.appendChild(linkText);
+      a.title = "Купить";
+      a.href = "https://darinastepanova.github.io/irpo/" + i.model;
+      container.appendChild(a);
 }
 
 //parameter passed from button (Parameter same as category)
