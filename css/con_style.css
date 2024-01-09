@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/fonts/Montserrat-Regular.ttf);
+	src: url("./fonts/Montserrat-Regular.ttf");
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -236,7 +236,7 @@ main, footer{
 	padding: 0;
 }
 .main-grad .grad{
-	background: url(/img/Rectangle.svg), lightgray 0px -35px / 100% 314.286% no-repeat;
+	background: url("./img/Rectangle.svg"), lightgray 0px -35px / 100% 314.286% no-repeat;
 	background-size: contain; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
