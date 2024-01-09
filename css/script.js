@@ -4,7 +4,7 @@ let products = {
       productName: "MOMENTUM платье",
       category: "Платья",
       price: "495",
-      image: "https://github.com/DarinaStepanova/irpo/blob/main/imgProduct/1.webp",
+      image: "../imgProduct/1.webp",
       model: "505795.html",
     },
     {
@@ -65,7 +65,7 @@ for (let i of products.data) {
   imgContainer.classList.add("image-container");
   //img tag
   let image = document.createElement("img");
-  image.setAttribute("src", i.image);
+  image.setAttribute("", i.image);
   imgContainer.appendChild(image);
   card.appendChild(imgContainer);
   //container
