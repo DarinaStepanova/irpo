@@ -4,14 +4,14 @@ let products = {
       productName: "MOMENTUM платье",
       category: "Платья",
       price: "495",
-      image: "/imgProduct/1.webp",
+      image: "../imgProduct/1.webp",
       model: "505795.html",
     },
     {
       productName: "FLOWERS блуза",
       category: "Блузыирубашки",
       price: "295",
-      image: "/imgProduct/2.webp",
+      image: "../imgProduct/2.webp",
       model: "605796.html",
     },
     {
