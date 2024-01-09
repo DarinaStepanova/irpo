@@ -4,7 +4,7 @@ let products = {
       productName: "MOMENTUM платье",
       category: "Платья",
       price: "495",
-      image: "../imgProduct/1.webp",
+      image: "../../css/imgProduct/1.webp",
       model: "505795.html",
     },
     {
